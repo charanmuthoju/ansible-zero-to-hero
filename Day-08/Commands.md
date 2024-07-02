@@ -13,9 +13,9 @@ ssh-keygen
 rm -f ~/.ssh/authorized_keys
 ```
 #Enable password authentication
-Go to the file /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
-Update PasswordAuthentication yes
-Restart SSH -> sudo systemctl restart ssh
+- Go to the file /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
+- Update PasswordAuthentication yes
+- Restart SSH -> sudo systemctl restart ssh
 
 #Add password to ubuntu user
 ```
