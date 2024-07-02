@@ -1,6 +1,8 @@
 #Delete all existing keys in local/control node 
+---
 cd /.ssh/
 rm -f id_rsa  id_rsa.pub
+---
 
 #To create key in local/control node
 ssh-keygen
